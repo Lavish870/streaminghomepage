@@ -11,8 +11,8 @@
     <main>
         <article>
             <section>
-                <nav class="flex items-center justify-between px-8 py-5">
-                    <div class="flex items-center gap-20 text-1xl font-awesome">
+                <nav class="flex flex-col gap-4 px-4 py-5 md:flex-row md:items-center md:justify-between md:px-8">
+                    <div class="flex flex-col items-center gap-4 md:flex-row md:gap-20 font-awesome">
                         <h1 class="pr-10 text-3xl text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-orange-600 font-bold">RioColdStar</h1>
                         <a href="#">Home</a>
                         <a href="#">TV Shows</a>
@@ -20,8 +20,8 @@
                         <a href="#">New & Popular</a>
                         <a href="#">My List</a>
                     </div>
-                    <div class="flex items-center gap-5">
-                        <div class="relative bg-[#12121d] rounded-full px-5 py-3 w-80 flex items-center gap-8 ">
+                    <div class="flex items-center gap-4 w-full justify-center md:w-auto">
+                        <div class="relative bg-[#12121d] rounded-full px-5 py-3 w-80 flex items-center gap-8 w-full md:w-80">
                             <input class="bg-transparent outline-none w-full pl-8" placeholder="Search movies,shows....">
                             <i class="fa-solid fa-magnifying-glass absolute absolute left-4 top-1/2 -translate-y-1/2 "></i>
                         </div>
@@ -30,16 +30,16 @@
                     </div>
                 </nav>
             </section>
-            <section class="relative h-[500px] overflow-hidden bg-zinc-900 ">
-                <img src="Images/hero1.png" class="absolute inset-0 w-full h-full object-cover">
-                <div class="absolute top-20 left-20 z-10 text-left h-full">
+            <section class="relative h-[400px] md:h-[500px] overflow-hidden">
+                <img src="Images/hero1.png" class="absolute inset-0 w-full h-full object-cover object-right md:object-center">
+                <div class="absolute top-10 left-6 z-10 text-left h-full md:top-20 md:left-20">
                     <div class="inline-flex items-center gap-2 bg-white/30 px-4 py-2 rounded-full backdrop-blur-sm">
                             <i class="fa-solid fa-star text-yellow-400"></i>
                             <span class="text-sm font-medium text-white">New Release</span>
                     </div>
                     <div class="space-y-6  text-left">
-                        <h1 class="text-5xl font-bold mt-6">Interstellar</h1>
-                        <p class="text-gray-300 max-w-xl">In a dying future Earth plagued by severe crop blights and dust storms, ex-NASA pilot Joseph Cooper joins a secret mission. He travels through a wormhole near Saturn with other scientists to find a new habitable planet and save humanity.</p>
+                        <h1 class="text-4xl md:text-5xl font-bold mt-6">Interstellar</h1>
+                        <p class="text-gray-300 max-w-xs md:max-w-xl text-sm md:text-base">In a dying future Earth plagued by severe crop blights and dust storms, ex-NASA pilot Joseph Cooper joins a secret mission. He travels through a wormhole near Saturn with other scientists to find a new habitable planet and save humanity.</p>
                         <div class="flex gap-4 justify-start">
                             <a href="https://youtu.be/OA3Txp94pjs?si=BrZ9JABIEiB4YU_j" class="hover:scale-110 duration-300 bg-gradient-to-r from-purple-600 to-orange-600 font-bold px-5 py-4 rounded-xl flex items-center gap-2" target="_blank">
                                 <i class="fa-solid fa-play text-white"></i>
@@ -71,8 +71,8 @@
                 </div>
             </section>
             <section class="px-8">
-                <div class="flex justify-between">
-                    <div class="w- bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                <div class="grid grid-cols-2 gap-4 md:flex md:justify-between">
+                    <div class="bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/card1.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -81,7 +81,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/card2.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/card3.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/card4.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -108,7 +108,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/card5.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -131,8 +131,8 @@
                 </div>
             </section>
             <section class="px-8">
-                <div class="flex justify-between">
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                <div class="grid grid-cols-2 gap-4 md:flex md:justify-between">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/nr1.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -141,7 +141,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/nr2.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -150,7 +150,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/nr3.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -159,7 +159,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/nr4.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -168,7 +168,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/nr5.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -191,8 +191,8 @@
                 </div>
             </section>
             <section class="px-8">
-                <div class="flex justify-between">
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                <div class="grid grid-cols-2 gap-4 md:flex md:justify-between">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/pm1.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -201,7 +201,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/pm2.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -210,7 +210,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/pm3.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -219,7 +219,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/pm4.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -228,7 +228,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/pm5.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -251,7 +251,7 @@
                 </div>
             </section>
             <section class="px-8">
-                <div class="flex justify-between">
+                <div class="grid grid-cols-2 gap-4 md:flex md:justify-between">
                     <div class="w- bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/ts1.png" class="w-full h-44 object-cover">
                         <div class="p-4">
@@ -261,7 +261,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/ts2.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -270,7 +270,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/ts3.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -279,7 +279,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/ts4.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -288,7 +288,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-90 bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
+                    <div class="  bg-[#15151f] rounded-xl overflow-hidden hover:scale-110 duration-300">
                         <img src="Images/ts5.png" class="w-full h-44 object-cover">
                         <div class="p-4">
                             <div class="flex items-center justify-between">
@@ -359,7 +359,66 @@
                 
             </section>
 
-            
+            <footer class="mt-24 border-t border-purple/10">
+
+                <div class="px-8 py-12">
+
+                    <div class="flex justify-between">
+
+                        <div>
+                            <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-orange-600">RioColdStar</h2>
+                            <p class="text-gray-400 mt-4 max-w-sm">Stream your favourite movies,TV shows and originals.</p>
+                        </div>
+
+                        <div>
+                            <h2 class="text-lg font-semibold mb-4">Browse</h2>
+                            <div class="flex flex-col gap-3">
+                                <a href="#" class="text-gray-400 hover:text-violet-500 transition duration-300">Movies</a>
+                                <a href="#" class="text-gray-400 hover:text-violet-500 transition duration-300">TV Shows</a>
+                                <a href="#" class="text-gray-400 hover:text-violet-500 transition duration-300">Trending</a>
+                                <a href="#" class="text-gray-400 hover:text-violet-500 transition duration-300">New Releases</a>
+                            </div>
+                        </div>
+
+                         <div>
+                            <h2 class="text-lg font-semibold mb-4">Company</h2>
+                            <div class="flex flex-col gap-3">
+                                <a href="#" class="text-gray-400 hover:text-violet-500 transition duration-300">About</a>
+                                <a href="#" class="text-gray-400 hover:text-violet-500 transition duration-300">Careers</a>
+                                <a href="#" class="text-gray-400 hover:text-violet-500 transition duration-300">Privacy</a>
+                                <a href="#" class="text-gray-400 hover:text-violet-500 transition duration-300">Terms & Conditions</a>
+                            </div>
+                        </div>
+
+                         <div>
+                            <h2 class="text-lg font-semibold mb-4">Follow Us</h2>
+                            <div class="flex flex-col gap-3">
+                                <div>
+                                    <i class="fa-brands fa-instagram"></i>
+                                    <a href="https://www.instagram.com/aimer_460?igsh=M3VmeHA0emNsOTNv" class="text-gray-400 hover:text-violet-500 transition duration-300">Instagram</a>
+                                </div>
+                                <div>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <a href="https://x.com/460Lavish" class="text-gray-400 hover:text-violet-500 transition duration-300">Twitter</a>
+                                </div>
+                                <div>
+                                    <i class="fa-brands fa-github"></i>
+                                     <a href="https://github.com/Lavish870" class="text-gray-400 hover:text-violet-500 transition duration-300">Github</a>
+                                </div>
+                                <div>
+                                    <i class="fa-brands fa-youtube"></i>
+                                    <a href="https://www.youtube.com/@SRKTroi" class="text-gray-400 hover:text-violet-500 transition duration-300">Youtube</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <div>
+                             <p class="text-gray-500 text-sm">
+                                 © 2026 RioColdStar. All rights reserved.
+                            </p>
+                        </div>
+                </div>
+            </footer>
         </article>
     </main>
 </body>
